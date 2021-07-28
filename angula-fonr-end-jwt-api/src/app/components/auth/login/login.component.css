@@ -1,0 +1,65 @@
+.navbar-custom{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.body {
+  padding-top: 60px;
+  height: 100%;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
+}
+
+.input-custom{
+  padding: 10px!important;
+}
+
+.text-custom{
+  font-weight: 400;
+color: blue;
+}
+
+.btn-signin{
+  color: white;
+  background-color: var(--blue);
+}
+
+.btn-signin:hover{
+  background-color: var(--blue);
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-google:hover{
+  background-color: #ec4d40;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+.btn-facebook:hover{
+  background-color: #335397;
+}
